@@ -20,7 +20,7 @@ time_text = ax.text(0.02, 0.95, '', transform=ax.transAxes)
 
 
 def animate(l):                   #calculates the Alcubierre function
-  sigma = ( (l )/NumberFrames ) ** 3*sigma_max  #funtion that makes sigma to increase slower at the beginning of the animation
+  sigma = ( (l +1)/NumberFrames ) ** 3*sigma_max  #funtion that makes sigma to increase slower at the beginning of the animation
   X=[ ]
   Y=[ ]
   x = - 2*R
